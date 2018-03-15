@@ -18,4 +18,12 @@ public class Baseball extends Item {
     public String handle(String s) {
         return null;
     }
+    @Override
+    public String handle(String s) {
+        if (s.equalsIgnoreCase("examine")) {
+            return this.getDescription();
+        } else {
+            return "derp.";
+        }
+    }
 }
