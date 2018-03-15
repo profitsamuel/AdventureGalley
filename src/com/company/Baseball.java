@@ -13,4 +13,9 @@ public class Baseball extends Item {
             return "derp.";
         }
     }
+
+    @Override
+    public String handle(String s) {
+        return null;
+    }
 }
